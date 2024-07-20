@@ -11,68 +11,67 @@
     background-color: gray;
 }
 .box {
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 580px;
     margin: auto;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .image {
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
 }
 
 .text {
     font-family: "Noto Sans", sans-serif;
-    font-size: 12px;
-    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 20px;
 }
 .text1 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 6px;
-    margin-left: 10px;
-    margin-top: 2px;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 4px;
     font-weight: normal;
     color: #c5c5c5;
 }
 .text2 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 7px;
-    margin-left: 10px;
-    margin-top: 3px;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 4px;
     color: red;
 }
 .text3 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 8px;
-    margin-left: 10px;
-    margin-top: 3px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 6px;
     font-weight: normal;
     color: #c5c5c5;
     text-decoration: line-through ;
 }
 .text4 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 8px;
-    margin-left: 10px;
-    margin-top: 2px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 3px;
     color: red;
 }
 .add {
-    width: 120px;
-    height: 20px;
+    width: 250px;
+    height: 35px;
     background-color: #FF802B;
-    border-radius: 10px;
-    margin-top: 6px;
-    margin-left: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 75px;
 }
 .add h1 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 8px;
+    font-size: 15px;
     text-align: center;
-    line-height: 20px;
+    line-height: 35px;
     color: white;
 
 }
