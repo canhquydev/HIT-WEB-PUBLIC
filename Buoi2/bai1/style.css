@@ -1,0 +1,130 @@
+* {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+    
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.box {
+    background-color:#FFF8F4;
+    height: 300px;
+    width: 300px;  
+    border-radius: 12px;
+    margin: auto;
+    box-shadow: 2px 2px 2px #bebaba;
+}
+.text1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    margin-left: 50px;  
+    margin-top: 30px;
+}
+.text2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 8px;
+    margin-left: 50px;  
+    margin-top: 10px;
+    color: gray;
+    font-weight: normal;
+}
+
+.txtgg {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 9px;
+    text-align: center;
+    font-weight: normal;
+    color: gray;
+}
+.google {
+    background-color: #ffffff;
+    width: 200px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 50px;
+    line-height: 20px;
+    margin-top: 8px;
+    border: 1px solid gray;
+}
+
+.txtfb {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 9px;
+    text-align: center;
+    font-weight: normal;
+    color: gray;
+}
+.facebook {
+    background-color: #ffffff;
+    width: 200px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 50px;
+    line-height: 20px;
+    margin-top: 6px;
+    border: 1px solid gray;
+}
+
+.text3 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 8px;
+    margin-left: 50px;  
+    margin-top: 10px;
+    color: gray;
+    font-weight: normal;
+}
+
+.email {
+    width: 200px;
+    height: 25px;
+    background-color: #EBEBE9;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.iemail {
+    font-family: "Noto Sans", sans-serif;
+    color: #b1b1b1;
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.pass {
+    background-color: #EBEBE9;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.ipass {
+    font-family: "Noto Sans", sans-serif;
+    color: #b1b1b1;
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.login {
+    width: 200px;
+    height: 25px;
+    background-color: #F76808;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.ilogin {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+}
