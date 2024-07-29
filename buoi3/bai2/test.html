@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Equal Width Divs</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Karma", serif;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+.header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-header {
+    margin-top: 10px;
+    font-size: 25px;
+}
+.list1-header {
+    margin-left: 30px;
+}
+.list3-header {
+    margin-right: 30px;
+}
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img-body {
+            flex: 1;
+            margin: 0 10px; /* Optional: adds space between divs */
+            text-align: center; /* Centers the content inside each div */
+        }
+
+        .img-body img {
+            width: 100%;
+            height: auto;
+        }
+
+        .img-body p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="header">
+            <ul class="list1-header item-header">
+                <i class="fa-solid fa-bars"></i>
+            </ul>
+            <ul class="list2-header item-header">
+                My Food
+            </ul>
+            <ul class="list3-header item-header">
+                Mail
+            </ul>
+        </div>
+        <div class="container">
+            <div class="img-body">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+                <p class="title">The Perfect Sandwich, A Real NYC Classic</p>
+                <p class="content">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="img-body">
+                <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+                <p class="title">Let Me Tell You About This Steak</p>
+                <p class="content">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="img-body">
+                <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+                <p class="title">Cherries, interrupted</p>
+                <p class="content">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p class="content"> What else?</p>
+            </div>
+            <div class="img-body">
+                <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+                <p class="title">Once Again, Robust Wine and Vegetable Pasta</p>
+                <p class="content">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
