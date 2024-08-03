@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.middle-list-item {
+    display: flex;
+    list-style: none;
+}
+.middle-list-item1 {
+    list-style: none;
+}
+.item {
+    margin: 10px;
+}
+.item:last-child,
+.fa-list-ul {
+    margin-right: 60px;
+}
+.item:first-child {
+    text-decoration: underline;
+}
+.header-text,
+.middle-text,
+.middle-text-bottom {
+    margin-left: 60px;
+}
+.middle-text,
+.header-text,
+.header-icon {
+    font-weight: 600;
+    font-size: 30px;
+}
+.middle-text-bottom,
+.item {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.middle-image {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.image {
+    height: 450px;
+    width: 450px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-list {
+    height: 80px;
+    width: 400px;
+}
+.footer-list-text {
+    text-align: center;
+    list-style: none;
+}
+.footer-list-text:first-child {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer-image {
+    display: flex;
+    margin-left: 30px;
+}  
+.img {
+    height: 116px;
+    width: 245px;
+}
+.header-text:hover,
+.fa-list-ul:hover,
+.middle-list-item:hover {
+    cursor: pointer;
+}

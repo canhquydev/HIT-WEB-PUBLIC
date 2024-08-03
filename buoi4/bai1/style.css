@@ -1,0 +1,29 @@
+   
+.flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h {
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+}
+.box1 {
+    align-content: center;
+}
+.box {
+    flex-direction: column;
+}
+.cH,
+.cT,
+.c4 {
+    display: flex;
+}
+.cI {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
